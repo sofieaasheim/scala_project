@@ -1,10 +1,7 @@
-// object Hello extends App{
-// println("Hello World")
-// }
 
 object Task1 extends App{
     
-    // function that print each elements of array using iteration
+    // method that print each elements of array using iteration
     def printArrayElements(array: Array[Int]) {
         println("Elements of Array are : ")
         for(i <- 0 to array.length-1 )
@@ -18,7 +15,7 @@ object Task1 extends App{
     }
 
     // print array from 1a
-    print("Task 1a:")
+    println("\nTask 1a:")
     printArrayElements(array)
 
 
@@ -31,11 +28,11 @@ object Task1 extends App{
     }
 
     // print iterative sum of an array 1b
-    print("\nTask 1b: ")
+    println("\nTask 1b: ")
     var arrayToBeSummed = Array(1,2,3,4,5)
     val sum = sumIterative(arrayToBeSummed)
     printArrayElements(arrayToBeSummed)
-    print("\n The recursive sum is ")
+    print(", and the iterative sum is ")
     print(sum)
 
     // Task 1c
@@ -45,11 +42,11 @@ object Task1 extends App{
     }
 
     // print recursive sum of array 
-    print("\nTask 1c: ")
+    println("\nTask 1c: ")
     printArrayElements(arrayToBeSummed)
-    print("\n The recursive sum is ")
+    print(", and the recursive sum is ")
     val newSum = sumRecursive(arrayToBeSummed,0)
-    print(newSum + "\n")
+    println(newSum)
 
     // Task 1d
     def fibonacci(n: Int): BigInt = {
@@ -59,12 +56,19 @@ object Task1 extends App{
     
     }
     // print recursive sum of array 1d
-    print("\nTask 1d: ")
+    println("Task 1d: ")
     val nr = 8
-    print("\nFibonacci number of " + nr + " is ")
+    print("Fibonacci number of " + nr + " is ")
     val fnr= fibonacci(nr)
-    print(fnr + "\n")
+    println(fnr)
 
 }
+
+// Difference between Int and BigInt:
+// BigInt can take up a greater amount of space in memory and will therefore accept a greater range of values,
+// which is an advantage when working with integer artichmetric where the values can exceed the range for Int.
+// An Int is 32 bits/4 bytes while an BigInt is 64 bits/8 bytes.
+
+
 
 
