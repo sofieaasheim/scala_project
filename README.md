@@ -1,6 +1,6 @@
 # Scala Project
 
-## Sofie Aasheim, Emma E.F. Cherrie, Silje Anfindsen
+Sofie Aasheim, Emma E.F. Cherrie, Silje Anfindsen
 ----------------------------------------------------------
 
 
