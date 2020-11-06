@@ -11,9 +11,9 @@ class Bank(val allowedAttempts: Integer = 3) {
         transactionsQueue.push(transaction)
 
         // spawn a thread that calls processTransactions
-        Thread t = new Thread{
+        val t = new Thread{
             override def run() {
-                processTransactions()
+                processTransactions
             }
         }
 
@@ -23,7 +23,7 @@ class Bank(val allowedAttempts: Integer = 3) {
     // project task 2
     private def processTransactions: Unit = {
         // pop a transaction from the queue
-        val transaction = transactionsQueue.pop()
+        val transaction = transactionsQueue.pop
 
         // spawn a thread to execute the transaction
         val t = new Thread(transaction)
@@ -32,9 +32,9 @@ class Bank(val allowedAttempts: Integer = 3) {
         
         // if transaction is pending, put it back into queue
         // and recursively call processTransactions
-        if (transaction.status() == PENDING){
+        if (transaction.status == TransactionStatus.PENDING){
             transactionsQueue.push(transaction)
-            processTransactions()
+            processTransactions
         }
 
         // otherwise, put it in the processed transactions queue.
