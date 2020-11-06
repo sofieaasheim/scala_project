@@ -37,5 +37,3 @@ class Account(val bank: Bank, initialBalance: Double) {
 }
 
 
-
-}
