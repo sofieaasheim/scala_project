@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/tasks_2.12-0.1.0-SNAPSHOT.jar ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes/Task2$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task1$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes/Task1$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task1$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes/Task1$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2$$anon$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes/Task2$$anon$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2$B$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes/Task2$B$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes/Task2.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2$A$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes/Task2$A$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes/Task1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes/Task2$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m[0J
