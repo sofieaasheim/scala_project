@@ -18,7 +18,7 @@ object Task1 extends App{
         number_array = number_array :+ w
     }
     // Print number_array
-    //print_array(number_array)
+    // print_array(number_array)
     
     // (b) Create a function that sums the elements in an array of integers using a for loop. (4p)
     def sum_integers(array: Array[Int]) {
@@ -27,15 +27,14 @@ object Task1 extends App{
         {
             sum += array(i)
         }
-        println("The sum of the elements in the array are:")
-        print(sum)
+        print("The sum of the elements in the array are: ")
+        println(sum)
     }
 
     // Run sum_integers
-    //sum_integers(number_array)
+    // sum_integers(number_array)
 
     // (c) Create a function that sums the elements in an array of integers using recursion. (4p)
-    // Run sum_integers
     def sum_integers_recursion(array: List[Int]): Int = {
         if (array.isEmpty)
             return 0
@@ -43,15 +42,14 @@ object Task1 extends App{
             return array.head + sum_integers_recursion(array.tail)
     }
     
-    // Run sum_integers_recursion
-    //println("The sum of the elements in the array are:")
-    //var array_sum = sum_integers_recursion(List(1,2,3))
-    //println(array_sum)
+    // Run sum_integers_recursion. The result should equal 6
+    // print("The sum of the elements in the array are: ")
+    // var array_sum = sum_integers_recursion(List(1,2,3)) 
+    // println(array_sum)
     
 
     // (d) Create a function to compute the nth Fibonacci number using recursion without using meoization 
     // (or other optimizations). Use BigInt instead of Int. What is the difference between these two data types? (5p) 
-
     def fibonacci(n: Int): BigInt = {
         if (n <= 0) {
             return BigInt(0)
@@ -62,10 +60,13 @@ object Task1 extends App{
         }
     }
     // Run fibonacci. The result should equal 1597
-    //var fibonacci_17 = fibonacci(17)
-    //println("The 17th Fibonacci number is equal to: ")
-    //println(fibonacci_17)
+    // var fibonacci_17 = fibonacci(17)
+    // print("The 17th Fibonacci number is equal to: ")
+    // println(fibonacci_17)
 
-    // BigInt is capable of holding far bigger numbers than Int.
+    // // Difference between Int and BigInt:
+    // BigInt can take up a greater amount of space in memory and will therefore accept a greater range of values,
+    // which is an advantage when working with integer artichmetric where the values can exceed the range for Int.
+    // An Int is 32 bits/4 bytes while an BigInt is 64 bits/8 bytes.
 
 }

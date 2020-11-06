@@ -24,4 +24,7 @@ project/plugins/project/
 .metals/
 .vscode/
 project/
+tasks/project/
+tasks/target/
+project_tasks/target/
 
