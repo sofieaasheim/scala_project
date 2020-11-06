@@ -67,4 +67,3 @@ val threadB = initialize_thread(() => {
 threadA.start()
 threadB.start()
 }
-
