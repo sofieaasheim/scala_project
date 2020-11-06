@@ -69,4 +69,3 @@ object Task1 extends App{
     // BigInt is capable of holding far bigger numbers than Int.
 
 }
-
