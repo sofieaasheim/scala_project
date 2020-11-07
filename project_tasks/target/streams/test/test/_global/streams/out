@@ -1,5 +1,5 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTransferTests, org.scalatest.tools.Framework$$anon$1@4cc719fd, false, [SuiteSelector])[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTests, org.scalatest.tools.Framework$$anon$1@4cc719fd, false, [SuiteSelector])[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTests, org.scalatest.tools.Framework$$anon$1@4e42c645, false, [SuiteSelector])[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTransferTests, org.scalatest.tools.Framework$$anon$1@4e42c645, false, [SuiteSelector])[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32mAccountTests:[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 01: Valid account withdrawal[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 02: Invalid account withdrawal should throw exception[0m[0m[0J
@@ -7,7 +7,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 04: Valid account deposit[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 05: Deposit of negative amount should throw exception[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m- Test 06: Correct balance amount after several withdrawals and deposits *** FAILED ***[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  54000.0 did not equal 54500 (AccountTests.scala:69)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  53475.0 did not equal 54500 (AccountTests.scala:69)[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32mAccountTransferTests:[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m- Test 07: Valid transfer between accounts *** FAILED ***[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m[0J
@@ -49,17 +49,17 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m- Test 10: Correct balance amounts after several transfers *** FAILED ***[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$18(AccountTests.scala:147)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Object.wait(Native Method)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.join(Thread.java:1303)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.join(Thread.java:1371)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$18(AccountTests.scala:143)[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m- Test 11: Failed transactions should retry and potentially succeed with multiple allowed attempts *** FAILED ***[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m[0J
@@ -90,7 +90,7 @@
 [0m[[0m[31merror[0m] [0m[0mjava.nio.channels.ClosedByInterruptException[0m[0J
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199)[0m[0J
 [0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.FileChannelImpl.endBlocking(FileChannelImpl.java:168)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:290)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:291)[0m[0J
 [0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:239)[0m[0J
 [0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:312)[0m[0J
 [0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:290)[0m[0J
