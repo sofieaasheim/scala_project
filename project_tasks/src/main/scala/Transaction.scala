@@ -48,18 +48,32 @@ class Transaction(val transactionsQueue: TransactionQueue,
   var attempt = 0
 
   override def run: Unit = {
-
+    
+    //project task 3
+    // should transfer money meaning withdraw money from one account and deposit it to the other account
       def doTransaction() = {
-          // TODO - project task 3
-          // Extend this method to satisfy requirements.
-          from withdraw amount
-          to deposit amount
-      }
-
-      // TODO - project task 3
-      // make the code below thread safe
-      if (status == TransactionStatus.PENDING) {
-          doTransaction
+        // check number of allowed attempts
+        if (attempt >= allowedAttemps){
+            this.status = TransactionStatus.FAILED   
+        }
+        // if there are any attempts left, transfer money
+        else  {
+            lazy val balanceAfterWithdraw = from.withdraw(amount)
+            lazy val balanceAfterDeposit = to.deposit(amount)
+        
+            //finish error handling
+            // sucesss iff both deposit and withdraw are successfull operations
+            balanceAfterWithdraw match{
+                case Right(string) => this.attempt +=1
+                case Left(balance) => balanceAfterDeposit match {
+                    case Right(string) => this.attempt += 1
+                    case Left(balance) => this.status = TransactionStatus.SUCCESS
+                } 
+            }
+        }
+    }
+      if (status == TransactionStatus.PENDING) this.synchronized {
+          doTransaction()
           Thread.sleep(50) // you might want this to make more room for
                            // new transactions to be added to the queue
       }
