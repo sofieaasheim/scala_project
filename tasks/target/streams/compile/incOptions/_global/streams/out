@@ -1,2 +1,20 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/siljemarieanfindsen/Documents/ProgLanguage/scala_project/tasks/target/scala-2.12/classes.bak[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/siljemarieanfindsen/Documents/ProgLanguage/scala_project/tasks/target/scala-2.12/classes.bak[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes.bak[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task1$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task1$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2Emma$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2Emma$B$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2Emma$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2$$anon$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2Emma$$anon$1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2Emma.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2Emma$A$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task1.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2$B$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	Task2$A$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/sofieaasheim/scala-project/scala_project/tasks/target/scala-2.12/classes.bak[0m[0J

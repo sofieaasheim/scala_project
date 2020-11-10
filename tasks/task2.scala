@@ -27,18 +27,22 @@ object Task2 extends App{
         counter += 1
     }
 
-    initialize_thread(increase_counter).start()
-    initialize_thread(increase_counter).start()
-    initialize_thread(print_counter_var).start()
+    var thread1 = initialize_thread(increase_counter)
+    var thread2 = initialize_thread(increase_counter)
+    var thread3 = initialize_thread(print_counter_var)
+    
+    thread1.start()
+    thread2.start()
+    thread3.start()
 
-    // Fiks denne deloppgaven med emma sin kode!
-
-    // The program ...........virker ikke..
-
-    // This phenomonen is called Race Condition and happens when two or more operations attempt to perform at the same time (threads in this case).
+    // The program output for task2b varies if we run the program several times. Sometimes the output is 1 and sometimes the output is 2.
+    // This is due to the phenomonen Race Condition.
+    // Initially we did not define the threads as variables and just started them directly, but this implementation did not demonstrate Race Condition. 
+    // To be able to complete this task in a satisfactory way we decided to alter the code to what it now reads.  
+    // Race Condition happens when two or more operations attempt to perform at the same time (threads in this case).
     // The output will depend on the timing at which each statement gets executed, and as the timing of the threads in this task is not controlled,
     // and can therefore happen in different order, the result can variate.
-    // An example of Race Condition:
+    // An example of (critical) Race Condition:
     // Two different users are buying tickets for a popular concert online at the same time. For both users it seems as their are tickets available. 
     // But while user 1 is looking at the tickets, user 2 buys the last ticket. So when user 1 press purchase there are actually no tickets left for the concert.
     // The interleaving actions on a shared resource caused this undesirable result. 
