@@ -24,7 +24,11 @@ project/plugins/project/
 .metals/
 .vscode/
 project/
+<<<<<<< HEAD
+target/
+=======
 tasks/project/
 tasks/target/
 project_tasks/target/
 
+>>>>>>> main

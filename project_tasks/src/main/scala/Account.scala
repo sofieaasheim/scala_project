@@ -6,7 +6,7 @@ class Account(val bank: Bank, initialBalance: Double) {
 
     val balance = new Balance(initialBalance)
 
-    def withdraw(amount: Double): Either[Double, String] = {
+    def withdraw(amount: Double): Either[Double, String] = this.synchronized {
         if (amount < 0) {
             return Right("Cannot withdraw a negative amount")
         }
@@ -17,7 +17,7 @@ class Account(val bank: Bank, initialBalance: Double) {
         return Left(this.getBalanceAmount)
     }
 
-    def deposit (amount: Double): Either[Double, String] = {
+    def deposit (amount: Double): Either[Double, String] = this.synchronized {
         if (amount < 0) {
             return Right("Cannot deposit a negative amount")
         }

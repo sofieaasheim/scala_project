@@ -1,140 +1,24 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTransferTests, org.scalatest.tools.Framework$$anon$1@4cc719fd, false, [SuiteSelector])[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTests, org.scalatest.tools.Framework$$anon$1@4cc719fd, false, [SuiteSelector])[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTransferTests, org.scalatest.tools.Framework$$anon$1@7909c59b, false, [SuiteSelector])[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AccountTests, org.scalatest.tools.Framework$$anon$1@7909c59b, false, [SuiteSelector])[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32mAccountTests:[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 01: Valid account withdrawal[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 02: Invalid account withdrawal should throw exception[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 03: Withdrawal of negative amount should throw exception[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 04: Valid account deposit[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test 05: Deposit of negative amount should throw exception[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m- Test 06: Correct balance amount after several withdrawals and deposits *** FAILED ***[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  54000.0 did not equal 54500 (AccountTests.scala:69)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 06: Correct balance amount after several withdrawals and deposits[0m[0m[0J
 [0m[[0m[0minfo[0m] [0m[0m[32mAccountTransferTests:[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m- Test 07: Valid transfer between accounts *** FAILED ***[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$15(AccountTests.scala:87)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m- Test 08: Transfer of negative amount between accounts should fail *** FAILED ***[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$16(AccountTests.scala:103)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m- Test 09: Invalid transfer between accounts due to insufficient funds should lead to transaction status FAILED and no money should be transferred between accounts *** FAILED ***[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$17(AccountTests.scala:119)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m- Test 10: Correct balance amounts after several transfers *** FAILED ***[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$18(AccountTests.scala:147)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m- Test 11: Failed transactions should retry and potentially succeed with multiple allowed attempts *** FAILED ***[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$24(AccountTests.scala:167)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$23(AccountTests.scala:156)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m- Test 12: Some transactions should be stopped with only one allowed attempt *** FAILED ***[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.InterruptedException: sleep interrupted[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.sleep(Native Method)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$28(AccountTests.scala:191)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at AccountTransferTests.$anonfun$new$27(AccountTests.scala:180)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m[0J
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m[0J
-[0m[[0m[31merror[0m] [0m[0mjava.nio.channels.ClosedByInterruptException[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.FileChannelImpl.endBlocking(FileChannelImpl.java:168)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:290)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:239)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:312)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:290)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:131)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:141)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.Writer.write(Writer.java:249)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.xml.XML$.write(XML.scala:112)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.xml.XML$.$anonfun$save$2(XML.scala:94)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.util.control.Exception$Catch.apply(Exception.scala:228)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.xml.XML$.save(XML.scala:94)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.JUnitXmlTestsListener.writeSuite(JUnitXmlTestsListener.scala:261)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.JUnitXmlTestsListener.endGroup(JUnitXmlTestsListener.scala:239)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestRunner.$anonfun$run$7(TestFramework.scala:155)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestRunner.$anonfun$run$7$adapted(TestFramework.scala:155)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$.$anonfun$safeForeach$1(TestFramework.scala:180)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$.$anonfun$safeForeach$1$adapted(TestFramework.scala:179)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator.foreach(Iterator.scala:943)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator.foreach$(Iterator.scala:943)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableLike.foreach(IterableLike.scala:74)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$.safeForeach(TestFramework.scala:179)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestRunner.safeListenersCall(TestFramework.scala:165)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestRunner.run(TestFramework.scala:155)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:317)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:277)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.TestFunction.apply(TestFramework.scala:329)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:422)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:832)[0m[0J
-[0m[[0m[31merror[0m] [0m[0mjava.nio.channels.ClosedByInterruptException[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 07: Valid transfer between accounts[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 08: Transfer of negative amount between accounts should fail[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 09: Invalid transfer between accounts due to insufficient funds should lead to transaction status FAILED and no money should be transferred between accounts[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 10: Correct balance amounts after several transfers[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 11: Failed transactions should retry and potentially succeed with multiple allowed attempts[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test 12: Some transactions should be stopped with only one allowed attempt[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 53 seconds, 418 milliseconds.[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 12[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	AccountTests[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	AccountTransferTests[0m[0J

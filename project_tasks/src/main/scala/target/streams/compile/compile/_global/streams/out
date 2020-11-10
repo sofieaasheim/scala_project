@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/sofieaasheim/scala-project/scala_project/project_tasks/src/main/scala/Account.scala:1:8: not found: object exceptions[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/Users/siljemarieanfindsen/Documents/ProgLanguage/scala_project/project_tasks/src/main/scala/Account.scala:1:8: not found: object exceptions[0m[0J
 [0m[[0m[31merror[0m] [0m[0mimport exceptions._[0m[0J
 [0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m/Users/sofieaasheim/scala-project/scala_project/project_tasks/src/main/scala/Transaction.scala:1:8: not found: object exceptions[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/Users/siljemarieanfindsen/Documents/ProgLanguage/scala_project/project_tasks/src/main/scala/Transaction.scala:1:8: not found: object exceptions[0m[0J
 [0m[[0m[31merror[0m] [0m[0mimport exceptions._[0m[0J
 [0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m[0J
