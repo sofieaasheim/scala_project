@@ -35,8 +35,10 @@ object Task2 extends App{
     thread2.start()
     thread3.start()
 
-    // The program output for task2b) varies if we run the program several times. Sometimes the output is 1 and sometimes the output is 2.
+    // The program output for task2b varies if we run the program several times. Sometimes the output is 1 and sometimes the output is 2.
     // This is due to the phenomonen Race Condition.
+    // Initially we did not define the threads as variables and just started them directly, but this implementation did not demonstrate Race Condition. 
+    // To be able to complete this task in a satisfactory way we decided to alter the code to what it now reads.  
     // Race Condition happens when two or more operations attempt to perform at the same time (threads in this case).
     // The output will depend on the timing at which each statement gets executed, and as the timing of the threads in this task is not controlled,
     // and can therefore happen in different order, the result can variate.
